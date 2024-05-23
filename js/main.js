@@ -42,11 +42,11 @@ function setBgGreet() {
 
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('../img/morning.jpg')";
     greeting.textContent = "Good Morning, ";
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('../img/morning.jpg')";
+    document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
     greeting.textContent = "Good Afternoon, ";
   } else {
     // Evening
